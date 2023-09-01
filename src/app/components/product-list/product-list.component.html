@@ -1,0 +1,30 @@
+<div class="flex">
+  <div class="flex flex-col space-y-4 md:w-9/12 w-full">
+    <!-- Display categories with associated products -->
+    <ng-container *ngFor="let category of filteredCategories">
+      <!-- Category header -->
+      <h2 class="text-2xl font-semibold mb-4">{{ category.name }}</h2>
+      <!-- Grid for category products -->
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+        <!-- Iterate on each category product -->
+        <div *ngFor="let product of category.products"
+          class="bg-white p-4 border border-gray-200 rounded-md flex px-5 py-8 hover:bg-gray-100 cursor-pointer h-36"
+          (click)="openProductModal(product)">
+          <img [src]="product.image" alt="Product Image" class="h-20 object-cover mr-4">
+          <div class="flex flex-col justify-center">
+            <h3 class="text-lg font-semibold mb-1">{{ product.name }}</h3>
+            <p class="text-gray-600">{{ product.price }}€</p>
+          </div>
+        </div>
+      </div>
+    </ng-container>
+  </div>
+  <app-side-cart></app-side-cart>
+</div>
+<!-- Sticky "Voir le panier" button for mobile -->
+<div class="md:hidden fixed bottom-0 left-0 w-full">
+  <button class="bg-blue-500 text-white w-full py-4" (click)="openCart()">Voir le panier</button>
+</div>
+<app-cart *ngIf="isCartOpen" (closeCart)="isCartOpen = false"></app-cart>
+<app-add-to-cart *ngIf="selectedProduct" [product]="selectedProduct"
+  (closeModal)="selectedProduct = null"></app-add-to-cart>

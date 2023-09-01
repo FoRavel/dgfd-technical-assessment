@@ -1,0 +1,37 @@
+<div class="fixed inset-0 flex items-center justify-center bg-black bg-opacity-50" [ngClass]="{'hidden': !product}">
+    <div class="bg-white p-4 rounded-md w-full max-w-md">
+        <div class="flex justify-end pb-2">
+            <button class="text-gray-600 hover:text-red-600 transition" (click)="closeModal.emit()">
+                <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12">
+                    </path>
+                </svg>
+            </button>
+        </div>
+        <div class="text-center">
+            <img [src]="product?.image" alt="Product Image" class="w-40 object-cover mx-auto mb-4">
+            <h4 class="text-xl font-semibold">{{ product?.name }}</h4>
+            <p class="text-gray-600">{{ product?.price }}€</p>
+            <p class="mt-4 text-sm font-medium text-gray-600">Quantité</p>
+            <div class="mt-4 flex items-center justify-center">
+                <button
+                    class="text-gray-600 border border-gray-300 px-4 py-2 rounded-full mr-2 focus:outline-none hover:bg-transparent hover:border hover:border-cyan-600 hover:border-opacity-50 transition"
+                    (click)="decrementQuantity()">
+                    -
+                </button>
+                <span class="text-2xl font-semibold">{{quantity}}</span>
+                <button
+                    class="text-gray-600 border border-gray-300 px-4 py-2 rounded-full ml-2 focus:outline-none hover:bg-transparent hover:border hover:border-cyan-600 hover:border-opacity-50 transition"
+                    (click)="incrementQuantity()">
+                    +
+                </button>
+            </div>
+            <button
+                class="mt-4 bg-slate-950  text-white hover:bg-gradient-to-r hover:to-cyan-600 hovervia-teal-500 hover:from-green-500 transition duration-300 w-full py-5  transition"
+                (click)="addToCart(product)">
+                Ajouter au panier
+            </button>
+        </div>
+    </div>
+</div>
