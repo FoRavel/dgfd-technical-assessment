@@ -9,7 +9,7 @@ Click on the below screenshots to get to the Youtube video.
 
 Safari 16.3 / MacOS 12.6.3
 
-### Mobile (Iphone/Safari)
+### Mobile
 
 <a href="https://www.youtube.com/shorts/9Y3mLkYGnKk"><img src="https://i.imgur.com/AzhV2QF.jpeg" alt="Alt Text" width="300" /></a>
 
