@@ -24,9 +24,4 @@ export class CategoryListComponent {
     this.selectedCategory = categoryName;
   }
 
-  handleClick(): void {
-    // Your code to be executed when the element is clicked
-    console.log('Element clicked!');
-    // You can call any other methods or perform any actions here
-  }
 }
