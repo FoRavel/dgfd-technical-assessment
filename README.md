@@ -8,10 +8,9 @@ Click on the below screenshots to get to the Youtube video.
 [![Desktop Overview - Youtube](https://i.imgur.com/3pmTZmv.png)](https://www.youtube.com/watch?v=7413mkPhd-Y)
 
 ### Mobile (Iphone)
-[![Mobile Overview - Youtube](https://i.imgur.com/AzhV2QF.jpeg
-)](https://www.youtube.com/shorts/9Y3mLkYGnKk)
 
-<img src="https://i.imgur.com/AzhV2QF.jpeg" alt="Alt Text" width="300" />
+<a href="https://www.youtube.com/shorts/9Y3mLkYGnKk"><img src="https://i.imgur.com/AzhV2QF.jpeg" alt="Alt Text" width="300" /></a>
+
 
 
 
