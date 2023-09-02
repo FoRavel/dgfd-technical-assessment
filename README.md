@@ -11,7 +11,7 @@ Click on the below screenshots to get to the Youtube video.
 [![Mobile Overview - Youtube](https://i.imgur.com/AzhV2QF.jpeg
 )](https://www.youtube.com/shorts/9Y3mLkYGnKk)
 
-
+<img src="https://i.imgur.com/AzhV2QF.jpeg" alt="Alt Text" width="300" />
 
 
 
