@@ -21,3 +21,4 @@ https://main--cute-kelpie-cd14b2.netlify.app/#
 
 - For UI/UX design I was inspired by the online ordering web interfaces of UberEATS and MacDonalds.
 - QuickPayFood is an unregistered trademark that I generated with the Namelix online application.
+- Illustrations I used come from Canva.
