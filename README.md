@@ -1,27 +1,23 @@
-# Quickpayfood
+# QuickPayFood - Angular technical assessment 
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.0.
+## Run in local environment 
 
-## Development server
+1. Run `git clone https://github.com/FoRavel/dgfd-technical-assessment.git` to clone the repository.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+2. Run `cd dgfd-technical-assessment`to get into the project folder.
 
-## Code scaffolding
+3. Run `npm install` to install required dependencies.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+4. Run `ng serve --open` to open the app in your default web browser.
 
-## Build
+## Run in production environment
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+QuickPayFood is deployed in production via Netlify (for free). Get access to the application by clicking the link below :
 
-## Running unit tests
+https://main--cute-kelpie-cd14b2.netlify.app/#
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
 
-## Running end-to-end tests
+## Acknowledgements
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+- For UI/UX design I was inspired by the online ordering web interfaces of UberEATS and MacDonalds.
+- QuickPayFood is an unregistered trademark that I generated with the Namelix online application.
