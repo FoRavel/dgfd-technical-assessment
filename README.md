@@ -1,5 +1,5 @@
 # QuickPayFood - Angular technical assessment 
-
+![Desktop version](https://s6.gifyu.com/images/SgadC.gif)
 ## Run in local environment 
 
 1. Run `git clone https://github.com/FoRavel/dgfd-technical-assessment.git` to clone the repository.
@@ -22,3 +22,4 @@ https://main--cute-kelpie-cd14b2.netlify.app/#
 - For UI/UX design I was inspired by the online ordering web interfaces of UberEATS and MacDonalds.
 - QuickPayFood is an unregistered trademark that I generated with the Namelix online application.
 - Illustrations I used come from Canva.
+- Stackoverflow, ChatGPT, Bard, are some ressources that I used to improve my coding speed and quality. I understand every pieces of code that I wrote.
