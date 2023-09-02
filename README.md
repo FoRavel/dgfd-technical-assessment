@@ -1,5 +1,17 @@
 # QuickPayFood - Angular technical assessment 
-![Desktop version](https://s6.gifyu.com/images/SgadC.gif)
+
+## Overview
+
+### Desktop (Mac)
+![rel](https://i.ibb.co/fDkyj1z/ezgif-com-video-to-gif-2.gif) 
+
+### Mobile (Iphone)
+![rel](https://i.ibb.co/RcCFXQc/IMG-0.gif) 
+
+The image quality is reduced and slow due to the conversion into .gif format
+
+
+
 ## Run in local environment 
 
 1. Run `git clone https://github.com/FoRavel/dgfd-technical-assessment.git` to clone the repository.
@@ -16,10 +28,33 @@ QuickPayFood is deployed in production via Netlify (for free). Get access to the
 
 https://main--cute-kelpie-cd14b2.netlify.app/#
 
+# QuickPayFood - Angular technical assessment 
 
-## Acknowledgements
+## Overview
 
-- For UI/UX design I was inspired by the online ordering web interfaces of UberEATS and MacDonalds.
-- QuickPayFood is an unregistered trademark that I generated with the Namelix online application.
-- Illustrations I used come from Canva.
-- Stackoverflow, ChatGPT, Bard, are some ressources that I used to improve my coding speed and quality. I understand every pieces of code that I wrote.
+### Desktop (Mac)
+![rel](https://i.ibb.co/fDkyj1z/ezgif-com-video-to-gif-2.gif) 
+
+### Mobile (Iphone)
+![rel](https://i.ibb.co/RcCFXQc/IMG-0.gif) 
+
+The image quality is reduced and slow due to the conversion into .gif format
+
+
+
+## Run in local environment 
+
+1. Run `git clone https://github.com/FoRavel/dgfd-technical-assessment.git` to clone the repository.
+
+2. Run `cd dgfd-technical-assessment`to get into the project folder.
+
+3. Run `npm install` to install required dependencies.
+
+4. Run `ng serve --open` to open the app in your default web browser.
+
+## Run in production environment
+
+QuickPayFood is deployed in production via Netlify (for free). Get access to the application by clicking the link below :
+
+https://main--cute-kelpie-cd14b2.netlify.app/#
+
